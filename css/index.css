@@ -43,7 +43,7 @@
     background-color: white;
 }
 
-.btn:hover,.btn-focus
+.btn:hover,.btn:focus
 {
     outline: none;
     background-color :rgb(117, 16, 247);
