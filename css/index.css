@@ -43,6 +43,13 @@
     background-color: white;
 }
 
+.btn:hover,.btn-focus
+{
+    outline: none;
+    background-color :rgb(117, 16, 247);
+    color : white;
+}
+
 .header
 {
     padding-top :12%;
