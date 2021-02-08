@@ -2,7 +2,7 @@
 {
     padding : 0px;
     margin : 0px;
-    font-family: sans-serif;
+    font-family:  sans-serif;
 }
 
 .navbar
@@ -20,6 +20,7 @@
 
 .nav-item
 {
+    float : right;
     margin-top : 25px;
 }
 
@@ -41,14 +42,16 @@
     margin-right : 80px;
     font-size : 20px;
     background-color: white;
-}
+    }
 
-.btn:hover,.btn:focus
+
+.btn:hover,.btn-focus
 {
     outline: none;
     background-color :rgb(117, 16, 247);
     color : white;
 }
+
 
 .header
 {
@@ -88,7 +91,7 @@ img.btn-img
 {
     background-color : rgb(117, 16, 247);
     text-align: center;
-    height : 95vh;
+    height : 100vh;
     
 }
 
@@ -113,11 +116,117 @@ img.btn-img
     letter-spacing: 2px ;
 }
 
+.section
+{
+    display : flex;
+    justify-content :space-between;
+    margin : 0px auto;
+    margin-top : -9rem;
+    height : 130vh;
+    width : 1200px;
+    background-color: whitesmoke;
+    border-radius : 10px;
+   
+}
+
+.sec-head
+{
+    color : #e76f51;
+    font-size : 32px;
+}
+
+.sect-text
+{
+    
+    font-size : 21px;
+    text-align :center;
+    font-weight: 100;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+.sect-text i.fa
+{
+    font-size: 54px;
+    color : rgb(117, 16, 247);
+    padding-top : 50px;
+    padding-bottom : 30px;
+}
+
+.sect-descrip
+{ 
+    
+    line-height: 32px;
+    font-size: 20px;
+    margin : 0px 30px;
+}
+
+.skills
+{
+    color: rgb(117, 16, 247); 
+    margin-bottom: 15px;
+}
+
+.skill
+{
+    color: rgb(117, 16, 247); 
+    margin-bottom: 10px;    
+}   
+
+.ul
+{
+    list-style: none;
+    display : inline-block;
+    margin-bottom: 10px;
+}
+
+.second-part
+{
+    display : flex;
+    margin : 0px auto;
+    justify-content: space-around;
+    width : 1200px;
+    height : 35vh;
+    background-color : rgb(20, 28, 58);
+    color : white;
+    border-radius: 10px;
+}
+
+.start
+{
+  margin: auto 0px; 
+  font-size : 35px; 
+}
+
+.start1
+{
+    margin: auto 0px; 
+    font-size : 20px; 
+}
+
+.btn1
+{
+    background-color :rgba(20,28,58);
+    color : white;
+    margin: auto 0px;
+    text-decoration: none;
+    border : 2px solid violet;
+    padding : 10px 15px;
+    font-size : 20px;
+    border-radius: 50px;
+}
+
+.btn1:hover
+{
+    background-color :rgb(117, 16, 247);
+    color : white;
+}
 .footer
 {
-    background-color: violet;
+    background-color: rgb(117, 16, 247);
     height : 90vh;
     text-align : center;
+   
 }
 
 .foot-img
@@ -125,6 +234,7 @@ img.btn-img
     width: 60px;
     margin-top : 200px;
     margin-bottom : 40px;
+    color: white;
 }
 
 .foot-text
