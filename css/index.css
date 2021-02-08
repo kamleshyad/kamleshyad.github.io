@@ -159,6 +159,8 @@ img.btn-img
     line-height: 32px;
     font-size: 20px;
     margin : 0px 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
 }
 
 .skills
@@ -167,6 +169,12 @@ img.btn-img
     margin-bottom: 15px;
 }
 
+.skill-descrip
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size : 20px;
+}
 .skill
 {
     color: rgb(117, 16, 247); 
@@ -178,7 +186,41 @@ img.btn-img
     list-style: none;
     display : inline-block;
     margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
 }
+
+.work
+{
+    display : block;
+    text-align : center;
+    width : 1200px;
+    height: 120vh;
+    margin : 0px auto;
+}
+
+.work-head
+{
+        color: rgb(20, 28, 58);
+        padding-top : 9rem;
+        padding-bottom : 30px;
+        margin :0px auto;
+}
+
+.work-txt
+{
+    font-family: 'Raleway', sans-serif;
+    font-size : 20px;
+    font-weight: 400;
+    margin-bottom : 5rem;
+}
+
+.work-email
+{
+    text-decoration : none;
+    color: rgb(117, 16, 247);
+    font-size : 18px;
+}   
 
 .second-part
 {
@@ -221,6 +263,9 @@ img.btn-img
     background-color :rgb(117, 16, 247);
     color : white;
 }
+
+
+
 .footer
 {
     background-color: rgb(117, 16, 247);
